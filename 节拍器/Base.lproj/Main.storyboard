@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="节拍器" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b5b-uU-hR2" customClass="CircularSlider" customModule="HGCircularSlider">
+                                <rect key="frame" x="60" y="184" width="200" height="200"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="ZL7-kZ-Rt3"/>
+                                    <constraint firstAttribute="height" constant="200" id="rW5-BT-pI2"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="diskFillColor">
+                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="diskColor">
+                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="trackFillColor">
+                                        <color key="value" red="0.87450980389999999" green="0.80000000000000004" blue="0.22352941179999999" alpha="0.79496228449999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="trackColor">
+                                        <color key="value" red="1" green="1" blue="1" alpha="0.10000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="thumbRadius">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="endThumbTintColor">
+                                        <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="endThumbStrokeColor">
+                                        <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="endThumbStrokeHighlightedColor">
+                                        <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="40" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="iYK-sj-o3N">
+                                <rect key="frame" x="135" y="259" width="49" height="51"/>
+                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="44"/>
+                                <color key="textColor" red="0.87581110000610352" green="0.80019086599349976" blue="0.2216358482837677" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="htQ-Ki-8UH">
+                                <rect key="frame" x="84.5" y="434" width="152" height="29"/>
+                                <segments>
+                                    <segment title="4/4" width="50"/>
+                                    <segment title="3/4" width="50"/>
+                                    <segment title="6/8" width="50"/>
+                                </segments>
+                                <color key="tintColor" red="0.99215686270000003" green="0.75294117650000003" blue="0.035294117649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" red="0.12439548224210739" green="0.14600074291229248" blue="0.21615156531333923" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="b5b-uU-hR2" firstAttribute="centerY" secondItem="iYK-sj-o3N" secondAttribute="centerY" id="84o-oq-ezt"/>
+                            <constraint firstItem="htQ-Ki-8UH" firstAttribute="top" secondItem="b5b-uU-hR2" secondAttribute="bottom" constant="50" id="G77-OL-u41"/>
+                            <constraint firstItem="htQ-Ki-8UH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="It5-a1-Qdd"/>
+                            <constraint firstItem="iYK-sj-o3N" firstAttribute="centerX" secondItem="b5b-uU-hR2" secondAttribute="centerX" id="S6e-02-RbB"/>
+                            <constraint firstItem="iYK-sj-o3N" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dRf-hG-5Oj"/>
+                            <constraint firstItem="iYK-sj-o3N" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="yvg-pP-GRq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="circular" destination="b5b-uU-hR2" id="Cer-Qk-EFo"/>
+                        <outlet property="speedLabler" destination="iYK-sj-o3N" id="ojc-Fm-e8z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="111" y="-26"/>
+        </scene>
+    </scenes>
+</document>
