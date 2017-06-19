@@ -18,11 +18,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var noteSelection: UISegmentedControl!
     @IBOutlet weak var beat: UISegmentedControl!
     
-    var myPlayer :AVAudioPlayer!
+    var myPlayer1 :AVAudioPlayer!
+    var myPlayer2 :AVAudioPlayer!
+    
     var isPlaying = false
     var timer: Timer!
-    
-    
+    var a = 2
+    var b = 3
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,6 +38,33 @@ class ViewController: UIViewController {
         speedLabler.isUserInteractionEnabled = true
         let tap = UITapGestureRecognizer.init(target: self, action: #selector(ViewController.playLable))
         
+        // 建立播放器
+        let soundPath1 = Bundle.main.path(
+            forResource: "ding", ofType: "wav")
+        do {
+            myPlayer1 = try AVAudioPlayer(
+                contentsOf: NSURL.fileURL(withPath: soundPath1!))
+            
+            // 重複播放次數 設為 0 則是只播放一次 不重複
+            myPlayer1.numberOfLoops = 0
+            
+        } catch {
+            print("error")
+        }
+        // 建立播放器
+        let soundPath2 = Bundle.main.path(
+            forResource: "beat", ofType: "mp3")
+        do {
+            myPlayer2 = try AVAudioPlayer(
+                contentsOf: NSURL.fileURL(withPath: soundPath2!))
+            
+            // 重複播放次數 設為 0 則是只播放一次 不重複
+            myPlayer2.numberOfLoops = 0
+            
+        } catch {
+            print("error")
+        }
+
         //绑定tap
         speedLabler.addGestureRecognizer(tap)
         self.view.addSubview(speedLabler)
@@ -73,103 +102,31 @@ class ViewController: UIViewController {
     }
     
     func playD_d() {
-        var a = 2
         if a%2 == 0 {
             print("播放成功1强")
-            // 建立播放器
-            let soundPath = Bundle.main.path(
-                forResource: "ding", ofType: "wav")
-            do {
-                myPlayer = try AVAudioPlayer(
-                    contentsOf: NSURL.fileURL(withPath: soundPath!))
-                
-                // 重複播放次數 設為 0 則是只播放一次 不重複
-                myPlayer.numberOfLoops = 0
-                
-            } catch {
-                print("error")
-            }
-            myPlayer.play()
+            myPlayer1.play()
             a = a + 1
             
-        }
-        else if a%2 == 1 {
+        } else if a%2 == 1 {
             print("播放成功2弱")
-            // 建立播放器
-            let soundPath = Bundle.main.path(
-                forResource: "beat", ofType: "mp3")
-            do {
-                myPlayer = try AVAudioPlayer(
-                    contentsOf: NSURL.fileURL(withPath: soundPath!))
-                
-                // 重複播放次數 設為 0 則是只播放一次 不重複
-                myPlayer.numberOfLoops = 0
-                
-            } catch {
-                print("error")
-            }
-            myPlayer.play()
+            myPlayer2.play()
             a = a + 1
         }
     }
     func playD_dd() {
-        var b = 3
         if b%3 == 0 {
             print("播放成功2强")
-            // 建立播放器
-            let soundPath = Bundle.main.path(
-                forResource: "ding", ofType: "wav")
-            do {
-                myPlayer = try AVAudioPlayer(
-                    contentsOf: NSURL.fileURL(withPath: soundPath!))
-                
-                // 重複播放次數 設為 0 則是只播放一次 不重複
-                myPlayer.numberOfLoops = 0
-                
-            } catch {
-                print("error")
-            }
-            myPlayer.play()
+            myPlayer1.play()
             b = b + 1
-            
-        }
-        else if b%3 == 1 {
+        } else if b%3 == 1 {
             print("播放成功2弱")
-            // 建立播放器
-            let soundPath = Bundle.main.path(
-                forResource: "beat", ofType: "mp3")
-            do {
-                myPlayer = try AVAudioPlayer(
-                    contentsOf: NSURL.fileURL(withPath: soundPath!))
-                
-                // 重複播放次數 設為 0 則是只播放一次 不重複
-                myPlayer.numberOfLoops = 0
-                
-            } catch {
-                print("error")
-            }
-            myPlayer.play()
+            myPlayer2.play()
             b = b + 1
-        }
-        else if b%3 == 2 {
+        } else if b%3 == 2 {
             print("播放成功2弱弱")
-            // 建立播放器
-            let soundPath = Bundle.main.path(
-                forResource: "beat", ofType: "mp3")
-            do {
-                myPlayer = try AVAudioPlayer(
-                    contentsOf: NSURL.fileURL(withPath: soundPath!))
-                
-                // 重複播放次數 設為 0 則是只播放一次 不重複
-                myPlayer.numberOfLoops = 0
-                
-            } catch {
-                print("error")
-            }
-            myPlayer.play()
+            myPlayer2.play()
             b = b + 1
         }
-        
     }
     func setupSlider() -> Int{
         // 更新圆中的数字

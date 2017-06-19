@@ -1,6 +1,6 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
 options: "da2494c7189aa48d5ef52a909e6f7760"
-build_time: [551159948, 317592000]
+build_time: [551174678, 443678000]
 inputs:
   "/Users/lolizzz/Documents/Metronome/Pods/HGCircularSlider/HGCircularSlider/Classes/CircularSlider+Draw.swift": [551159842, 0]
   "/Users/lolizzz/Documents/Metronome/Pods/HGCircularSlider/HGCircularSlider/Classes/CircularSlider.swift": [551159842, 0]

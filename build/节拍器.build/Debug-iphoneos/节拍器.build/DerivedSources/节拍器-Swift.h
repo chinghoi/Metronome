@@ -166,9 +166,12 @@ SWIFT_CLASS("_TtC9节拍器14ViewController")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified speedLabler;
 @property (nonatomic, weak) IBOutlet UISegmentedControl * _Null_unspecified noteSelection;
 @property (nonatomic, weak) IBOutlet UISegmentedControl * _Null_unspecified beat;
-@property (nonatomic, strong) AVAudioPlayer * _Null_unspecified myPlayer;
+@property (nonatomic, strong) AVAudioPlayer * _Null_unspecified myPlayer1;
+@property (nonatomic, strong) AVAudioPlayer * _Null_unspecified myPlayer2;
 @property (nonatomic) BOOL isPlaying;
 @property (nonatomic, strong) NSTimer * _Null_unspecified timer;
+@property (nonatomic) NSInteger a;
+@property (nonatomic) NSInteger b;
 - (void)viewDidLoad;
 - (void)playLable;
 - (void)playMode;
