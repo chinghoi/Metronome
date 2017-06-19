@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="节拍器" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="iYK-sj-o3N">
+                                <rect key="frame" x="160" y="284" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="44"/>
+                                <color key="textColor" red="0.89354783296585083" green="0.63009482622146606" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b5b-uU-hR2" customClass="CircularSlider" customModule="HGCircularSlider">
+                                <rect key="frame" x="60" y="184" width="200" height="200"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_indicators" translatesAutoresizingMaskIntoConstraints="NO" id="I1c-88-NdL" userLabel="bg_indicators">
+                                        <rect key="frame" x="-26" y="-25" width="251" height="250"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="ZL7-kZ-Rt3"/>
+                                    <constraint firstAttribute="height" constant="200" id="rW5-BT-pI2"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="diskFillColor">
+                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="diskColor">
+                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="trackFillColor">
+                                        <color key="value" red="0.87450980389999999" green="0.80000000000000004" blue="0.22352941179999999" alpha="0.79496228449999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="trackColor">
+                                        <color key="value" red="1" green="1" blue="1" alpha="0.10000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="thumbRadius">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="endThumbTintColor">
+                                        <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="endThumbStrokeColor">
+                                        <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="endThumbStrokeHighlightedColor">
+                                        <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="cJ9-kj-yR7">
+                                <rect key="frame" x="94" y="88" width="132" height="40"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="132" placeholderIntrinsicHeight="20" text="节拍器" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Irp-j5-hTr">
+                                        <rect key="frame" x="0.0" y="0.0" width="132" height="20"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                        <color key="textColor" red="0.89354783296585083" green="0.63009482622146606" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="132" placeholderIntrinsicHeight="20" text="Metronome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pcd-u2-05s">
+                                        <rect key="frame" x="0.0" y="20" width="132" height="20"/>
+                                        <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="16"/>
+                                        <color key="textColor" red="0.99215686270000003" green="0.75294117650000003" blue="0.035294117649999998" alpha="0.61616379310000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="htQ-Ki-8UH" userLabel="noteSelection">
+                                <rect key="frame" x="69" y="436" width="182" height="29"/>
+                                <segments>
+                                    <segment title="2分音符" width="60"/>
+                                    <segment title="4分音符" width="60"/>
+                                    <segment title="8分音符" width="60"/>
+                                </segments>
+                                <color key="tintColor" red="0.89354783296585083" green="0.63009482622146606" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="noteChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="qX9-cV-gu5"/>
+                                </connections>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="eaX-G6-iLa">
+                                <rect key="frame" x="106" y="491" width="107" height="29"/>
+                                <segments>
+                                    <segment title="2/2"/>
+                                    <segment title="3/2"/>
+                                    <segment title="4/2"/>
+                                </segments>
+                                <color key="tintColor" red="0.89354783299999996" green="0.63009482620000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" red="0.04281594406357455" green="0.050614242047310652" blue="0.076022282318415346" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="htQ-Ki-8UH" firstAttribute="centerX" secondItem="eaX-G6-iLa" secondAttribute="centerX" id="5Sf-Ue-4pw"/>
+                            <constraint firstItem="b5b-uU-hR2" firstAttribute="centerY" secondItem="iYK-sj-o3N" secondAttribute="centerY" id="84o-oq-ezt"/>
+                            <constraint firstItem="cJ9-kj-yR7" firstAttribute="centerX" secondItem="iYK-sj-o3N" secondAttribute="centerX" id="MzO-1j-bVz"/>
+                            <constraint firstItem="iYK-sj-o3N" firstAttribute="centerX" secondItem="b5b-uU-hR2" secondAttribute="centerX" id="S6e-02-RbB"/>
+                            <constraint firstItem="b5b-uU-hR2" firstAttribute="top" secondItem="cJ9-kj-yR7" secondAttribute="bottom" constant="56" id="WS3-oG-2uc"/>
+                            <constraint firstItem="iYK-sj-o3N" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dRf-hG-5Oj"/>
+                            <constraint firstItem="htQ-Ki-8UH" firstAttribute="top" secondItem="b5b-uU-hR2" secondAttribute="bottom" constant="52" id="f9O-Q9-VeB"/>
+                            <constraint firstItem="eaX-G6-iLa" firstAttribute="top" secondItem="htQ-Ki-8UH" secondAttribute="bottom" constant="27" id="iX6-u3-jtu"/>
+                            <constraint firstItem="htQ-Ki-8UH" firstAttribute="centerX" secondItem="iYK-sj-o3N" secondAttribute="centerX" id="mL5-du-GBw"/>
+                            <constraint firstItem="iYK-sj-o3N" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="yvg-pP-GRq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="beat" destination="eaX-G6-iLa" id="Ata-gF-TV5"/>
+                        <outlet property="circular" destination="b5b-uU-hR2" id="Cer-Qk-EFo"/>
+                        <outlet property="noteSelection" destination="htQ-Ki-8UH" id="xi3-IB-YPa"/>
+                        <outlet property="speedLabler" destination="iYK-sj-o3N" id="ffz-Ab-920"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="125.625" y="22.183098591549296"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg_indicators" width="301" height="300"/>
+    </resources>
+</document>

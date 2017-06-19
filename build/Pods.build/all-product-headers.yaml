@@ -1,0 +1,60 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/lolizzz/Documents/Metronome/build/Debug-iphoneos/HGCircularSlider/HGCircularSlider.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "HGCircularSlider-Swift.h",
+          'external-contents': "/Users/lolizzz/Documents/Metronome/build/Debug-iphoneos/HGCircularSlider/HGCircularSlider.framework/Headers/HGCircularSlider-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "HGCircularSlider-umbrella.h",
+          'external-contents': "/Users/lolizzz/Documents/Metronome/Pods/Target Support Files/HGCircularSlider/HGCircularSlider-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/lolizzz/Documents/Metronome/build/Debug-iphoneos/HGCircularSlider/HGCircularSlider.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/lolizzz/Documents/Metronome/build/Pods.build/Debug-iphoneos/HGCircularSlider.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/lolizzz/Documents/Metronome/build/Debug-iphoneos/Pods____.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-\u8282\u62CD\u5668-umbrella.h",
+          'external-contents': "/Users/lolizzz/Documents/Metronome/Pods/Target Support Files/Pods-\u8282\u62CD\u5668/Pods-\u8282\u62CD\u5668-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods____-Swift.h",
+          'external-contents': "/Users/lolizzz/Documents/Metronome/build/Debug-iphoneos/Pods____.framework/Headers/Pods____-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/lolizzz/Documents/Metronome/build/Debug-iphoneos/Pods____.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/lolizzz/Documents/Metronome/build/Pods.build/Debug-iphoneos/Pods-\u8282\u62CD\u5668.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

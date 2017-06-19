@@ -9,45 +9,26 @@
 /* Begin PBXBuildFile section */
 		07096E2E1ED32853006E7E23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07096E2D1ED32853006E7E23 /* AppDelegate.swift */; };
 		07096E301ED32853006E7E23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07096E2F1ED32853006E7E23 /* ViewController.swift */; };
-		07096E331ED32853006E7E23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07096E311ED32853006E7E23 /* Main.storyboard */; };
 		07096E351ED32854006E7E23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07096E341ED32854006E7E23 /* Assets.xcassets */; };
 		07096E381ED32854006E7E23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07096E361ED32854006E7E23 /* LaunchScreen.storyboard */; };
-		07096E431ED32854006E7E23 /* ___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07096E421ED32854006E7E23 /* ___Tests.swift */; };
-		07096E4E1ED32855006E7E23 /* ___UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07096E4D1ED32855006E7E23 /* ___UITests.swift */; };
+		07277EE51EF7858A00789974 /* beat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 07277EE41EF7858A00789974 /* beat.mp3 */; };
+		07277EE71EF7859000789974 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 07277EE61EF7859000789974 /* ding.wav */; };
+		07277EEB1EF7863900789974 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07277EEA1EF7863900789974 /* Main.storyboard */; };
+		07277EED1EF786AA00789974 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07277EEC1EF786AA00789974 /* images.xcassets */; };
 		122C2B3E6A9CDE21FDDC7C96 /* Pods____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93773B0A24597EA6CFDBA136 /* Pods____.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		07096E3F1ED32854006E7E23 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 07096E221ED32853006E7E23 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 07096E291ED32853006E7E23;
-			remoteInfo = "节拍器";
-		};
-		07096E4A1ED32855006E7E23 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 07096E221ED32853006E7E23 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 07096E291ED32853006E7E23;
-			remoteInfo = "节拍器";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		07096E2A1ED32853006E7E23 /* 节拍器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "节拍器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07096E2D1ED32853006E7E23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07096E2F1ED32853006E7E23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		07096E321ED32853006E7E23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07096E341ED32854006E7E23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07096E371ED32854006E7E23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07096E391ED32854006E7E23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		07096E3E1ED32854006E7E23 /* 节拍器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "节拍器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		07096E421ED32854006E7E23 /* ___Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___Tests.swift"; sourceTree = "<group>"; };
-		07096E441ED32855006E7E23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		07096E491ED32855006E7E23 /* 节拍器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "节拍器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		07096E4D1ED32855006E7E23 /* ___UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___UITests.swift"; sourceTree = "<group>"; };
-		07096E4F1ED32855006E7E23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07277EE41EF7858A00789974 /* beat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beat.mp3; sourceTree = "<group>"; };
+		07277EE61EF7859000789974 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		07277EEA1EF7863900789974 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		07277EEC1EF786AA00789974 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
 		43D71630FFC5C37E251F396A /* Pods-节拍器.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-节拍器.release.xcconfig"; path = "Pods/Target Support Files/Pods-节拍器/Pods-节拍器.release.xcconfig"; sourceTree = "<group>"; };
 		93773B0A24597EA6CFDBA136 /* Pods____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F45553919167F50A6234B664 /* Pods-节拍器.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-节拍器.debug.xcconfig"; path = "Pods/Target Support Files/Pods-节拍器/Pods-节拍器.debug.xcconfig"; sourceTree = "<group>"; };
@@ -62,20 +43,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		07096E3B1ED32854006E7E23 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		07096E461ED32855006E7E23 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,8 +50,6 @@
 			isa = PBXGroup;
 			children = (
 				07096E2C1ED32853006E7E23 /* 节拍器 */,
-				07096E411ED32854006E7E23 /* 节拍器Tests */,
-				07096E4C1ED32855006E7E23 /* 节拍器UITests */,
 				07096E2B1ED32853006E7E23 /* Products */,
 				4079CB248C1C19825148A0E4 /* Pods */,
 				9A98A03A6491667A139FA217 /* Frameworks */,
@@ -95,8 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				07096E2A1ED32853006E7E23 /* 节拍器.app */,
-				07096E3E1ED32854006E7E23 /* 节拍器Tests.xctest */,
-				07096E491ED32855006E7E23 /* 节拍器UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,32 +67,25 @@
 		07096E2C1ED32853006E7E23 /* 节拍器 */ = {
 			isa = PBXGroup;
 			children = (
+				07096E341ED32854006E7E23 /* Assets.xcassets */,
+				07277EEC1EF786AA00789974 /* images.xcassets */,
+				07277EE31EF7856800789974 /* audio */,
 				07096E2D1ED32853006E7E23 /* AppDelegate.swift */,
 				07096E2F1ED32853006E7E23 /* ViewController.swift */,
-				07096E311ED32853006E7E23 /* Main.storyboard */,
-				07096E341ED32854006E7E23 /* Assets.xcassets */,
+				07277EEA1EF7863900789974 /* Main.storyboard */,
 				07096E361ED32854006E7E23 /* LaunchScreen.storyboard */,
 				07096E391ED32854006E7E23 /* Info.plist */,
 			);
 			path = "节拍器";
 			sourceTree = "<group>";
 		};
-		07096E411ED32854006E7E23 /* 节拍器Tests */ = {
+		07277EE31EF7856800789974 /* audio */ = {
 			isa = PBXGroup;
 			children = (
-				07096E421ED32854006E7E23 /* ___Tests.swift */,
-				07096E441ED32855006E7E23 /* Info.plist */,
+				07277EE41EF7858A00789974 /* beat.mp3 */,
+				07277EE61EF7859000789974 /* ding.wav */,
 			);
-			path = "节拍器Tests";
-			sourceTree = "<group>";
-		};
-		07096E4C1ED32855006E7E23 /* 节拍器UITests */ = {
-			isa = PBXGroup;
-			children = (
-				07096E4D1ED32855006E7E23 /* ___UITests.swift */,
-				07096E4F1ED32855006E7E23 /* Info.plist */,
-			);
-			path = "节拍器UITests";
+			name = audio;
 			sourceTree = "<group>";
 		};
 		4079CB248C1C19825148A0E4 /* Pods */ = {
@@ -172,42 +128,6 @@
 			productReference = 07096E2A1ED32853006E7E23 /* 节拍器.app */;
 			productType = "com.apple.product-type.application";
 		};
-		07096E3D1ED32854006E7E23 /* 节拍器Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 07096E551ED32855006E7E23 /* Build configuration list for PBXNativeTarget "节拍器Tests" */;
-			buildPhases = (
-				07096E3A1ED32854006E7E23 /* Sources */,
-				07096E3B1ED32854006E7E23 /* Frameworks */,
-				07096E3C1ED32854006E7E23 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				07096E401ED32854006E7E23 /* PBXTargetDependency */,
-			);
-			name = "节拍器Tests";
-			productName = "节拍器Tests";
-			productReference = 07096E3E1ED32854006E7E23 /* 节拍器Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		07096E481ED32855006E7E23 /* 节拍器UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 07096E581ED32855006E7E23 /* Build configuration list for PBXNativeTarget "节拍器UITests" */;
-			buildPhases = (
-				07096E451ED32855006E7E23 /* Sources */,
-				07096E461ED32855006E7E23 /* Frameworks */,
-				07096E471ED32855006E7E23 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				07096E4B1ED32855006E7E23 /* PBXTargetDependency */,
-			);
-			name = "节拍器UITests";
-			productName = "节拍器UITests";
-			productReference = 07096E491ED32855006E7E23 /* 节拍器UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -220,17 +140,8 @@
 				TargetAttributes = {
 					07096E291ED32853006E7E23 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = W7EHXT73BL;
 						ProvisioningStyle = Automatic;
-					};
-					07096E3D1ED32854006E7E23 = {
-						CreatedOnToolsVersion = 8.3.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 07096E291ED32853006E7E23;
-					};
-					07096E481ED32855006E7E23 = {
-						CreatedOnToolsVersion = 8.3.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 07096E291ED32853006E7E23;
 					};
 				};
 			};
@@ -248,8 +159,6 @@
 			projectRoot = "";
 			targets = (
 				07096E291ED32853006E7E23 /* 节拍器 */,
-				07096E3D1ED32854006E7E23 /* 节拍器Tests */,
-				07096E481ED32855006E7E23 /* 节拍器UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,23 +168,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07277EE71EF7859000789974 /* ding.wav in Resources */,
+				07277EEB1EF7863900789974 /* Main.storyboard in Resources */,
 				07096E381ED32854006E7E23 /* LaunchScreen.storyboard in Resources */,
+				07277EED1EF786AA00789974 /* images.xcassets in Resources */,
 				07096E351ED32854006E7E23 /* Assets.xcassets in Resources */,
-				07096E331ED32853006E7E23 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		07096E3C1ED32854006E7E23 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		07096E471ED32855006E7E23 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				07277EE51EF7858A00789974 /* beat.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,46 +237,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		07096E3A1ED32854006E7E23 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				07096E431ED32854006E7E23 /* ___Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		07096E451ED32855006E7E23 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				07096E4E1ED32855006E7E23 /* ___UITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		07096E401ED32854006E7E23 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 07096E291ED32853006E7E23 /* 节拍器 */;
-			targetProxy = 07096E3F1ED32854006E7E23 /* PBXContainerItemProxy */;
-		};
-		07096E4B1ED32855006E7E23 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 07096E291ED32853006E7E23 /* 节拍器 */;
-			targetProxy = 07096E4A1ED32855006E7E23 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		07096E311ED32853006E7E23 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				07096E321ED32853006E7E23 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		07096E361ED32854006E7E23 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -490,6 +351,7 @@
 			baseConfigurationReference = F45553919167F50A6234B664 /* Pods-节拍器.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W7EHXT73BL;
 				INFOPLIST_FILE = "节拍器/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "chinghoi.---";
@@ -503,65 +365,12 @@
 			baseConfigurationReference = 43D71630FFC5C37E251F396A /* Pods-节拍器.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W7EHXT73BL;
 				INFOPLIST_FILE = "节拍器/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "chinghoi.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		07096E561ED32855006E7E23 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "节拍器Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "chinghoi.---Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/节拍器.app/节拍器";
-			};
-			name = Debug;
-		};
-		07096E571ED32855006E7E23 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "节拍器Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "chinghoi.---Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/节拍器.app/节拍器";
-			};
-			name = Release;
-		};
-		07096E591ED32855006E7E23 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = "节拍器UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "chinghoi.---UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "节拍器";
-			};
-			name = Debug;
-		};
-		07096E5A1ED32855006E7E23 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = "节拍器UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "chinghoi.---UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "节拍器";
 			};
 			name = Release;
 		};
@@ -582,24 +391,6 @@
 			buildConfigurations = (
 				07096E531ED32855006E7E23 /* Debug */,
 				07096E541ED32855006E7E23 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		07096E551ED32855006E7E23 /* Build configuration list for PBXNativeTarget "节拍器Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				07096E561ED32855006E7E23 /* Debug */,
-				07096E571ED32855006E7E23 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		07096E581ED32855006E7E23 /* Build configuration list for PBXNativeTarget "节拍器UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				07096E591ED32855006E7E23 /* Debug */,
-				07096E5A1ED32855006E7E23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,354 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Interval"
+- "Circle"
+- "Arc"
+- "CircularSliderHelper"
+provides-nominal:
+- "V16HGCircularSlider8Interval"
+- "V16HGCircularSlider6Circle"
+- "V16HGCircularSlider3Arc"
+- "C16HGCircularSlider20CircularSliderHelper"
+provides-member:
+- ["V16HGCircularSlider8Interval", ""]
+- ["V16HGCircularSlider6Circle", ""]
+- ["V16HGCircularSlider3Arc", ""]
+- ["VSC8CGVector", ""]
+- ["VSC6CGRect", ""]
+- ["C16HGCircularSlider20CircularSliderHelper", ""]
+- ["VSC8CGVector", "init"]
+- ["VSC8CGVector", "dotProduct"]
+- ["VSC8CGVector", "determinant"]
+- ["VSC8CGVector", "dotProductAndDeterminant"]
+- ["VSC6CGRect", "center"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- "*"
+- !private "+"
+- "-"
+- "/"
+- !private "<"
+- !private "<="
+- !private ">"
+- !private ">="
+- "Arc"
+- "AssignmentPrecedence"
+- "CGFloat"
+- "CGPoint"
+- "CGRect"
+- "CGVector"
+- "Circle"
+- "CircularSliderHelper"
+- "Double"
+- "Float"
+- "Int"
+- "Interval"
+- !private "NSLocalizedString"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- !private "assert"
+- !private "atan2"
+- !private "cos"
+- !private "sin"
+depends-member:
+- ["Ps16AbsoluteValuable", "init"]
+- ["Ps16AbsoluteValuable", "pi"]
+- !private ["Ps16AbsoluteValuable", "truncatingRemainder"]
+- ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "CGPoint"]
+- !private ["Ps9AnyObject", "CGVector"]
+- ["Ps9AnyObject", "Double"]
+- !private ["Ps9AnyObject", "Float"]
+- !private ["Ps9AnyObject", "Interval"]
+- !private ["Ps9AnyObject", "angle"]
+- !private ["Ps9AnyObject", "atan2"]
+- !private ["Ps9AnyObject", "circleMaxValue"]
+- !private ["Ps9AnyObject", "circleMinValue"]
+- !private ["Ps9AnyObject", "cos"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "scaleToAngle"]
+- !private ["Ps9AnyObject", "scaleValue"]
+- !private ["Ps9AnyObject", "sin"]
+- ["Ps9AnyObject", ""]
+- ["V16HGCircularSlider3Arc", "CGFloat"]
+- ["V16HGCircularSlider3Arc", "CGPoint"]
+- ["V16HGCircularSlider3Arc", "Circle"]
+- ["V16HGCircularSlider3Arc", "circle"]
+- ["V16HGCircularSlider3Arc", "endAngle"]
+- ["V16HGCircularSlider3Arc", "init"]
+- ["V16HGCircularSlider3Arc", "startAngle"]
+- ["Ps19BinaryFloatingPoint", "init"]
+- ["Ps19BinaryFloatingPoint", "pi"]
+- !private ["Ps19BinaryFloatingPoint", "truncatingRemainder"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["V12CoreGraphics7CGFloat", "init"]
+- !private ["V12CoreGraphics7CGFloat", "truncatingRemainder"]
+- !private ["VSC7CGPoint", "init"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- ["VSC7CGPoint", "zero"]
+- ["VSC6CGRect", "CGPoint"]
+- ["VSC6CGRect", "center"]
+- !private ["VSC6CGRect", "midX"]
+- !private ["VSC6CGRect", "midY"]
+- ["VSC8CGVector", "CGFloat"]
+- ["VSC8CGVector", "CGPoint"]
+- ["VSC8CGVector", "CGVector"]
+- ["VSC8CGVector", "Float"]
+- ["VSC8CGVector", "determinant"]
+- ["VSC8CGVector", "dotProduct"]
+- ["VSC8CGVector", "dotProductAndDeterminant"]
+- !private ["VSC8CGVector", "dx"]
+- !private ["VSC8CGVector", "dy"]
+- ["VSC8CGVector", "init"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "pi"]
+- !private ["Ps7CVarArg", "truncatingRemainder"]
+- ["V16HGCircularSlider6Circle", "CGFloat"]
+- ["V16HGCircularSlider6Circle", "CGPoint"]
+- !private ["V16HGCircularSlider6Circle", "NSLocalizedString"]
+- !private ["V16HGCircularSlider6Circle", "assert"]
+- ["V16HGCircularSlider6Circle", "init"]
+- ["V16HGCircularSlider6Circle", "origin"]
+- ["V16HGCircularSlider6Circle", "radius"]
+- ["C16HGCircularSlider20CircularSliderHelper", "CGFloat"]
+- ["C16HGCircularSlider20CircularSliderHelper", "CGPoint"]
+- !private ["C16HGCircularSlider20CircularSliderHelper", "CGVector"]
+- ["C16HGCircularSlider20CircularSliderHelper", "Circle"]
+- ["C16HGCircularSlider20CircularSliderHelper", "Double"]
+- !private ["C16HGCircularSlider20CircularSliderHelper", "Float"]
+- ["C16HGCircularSlider20CircularSliderHelper", "Interval"]
+- ["C16HGCircularSlider20CircularSliderHelper", "angle"]
+- !private ["C16HGCircularSlider20CircularSliderHelper", "atan2"]
+- ["C16HGCircularSlider20CircularSliderHelper", "circleInitialAngle"]
+- ["C16HGCircularSlider20CircularSliderHelper", "circleMaxValue"]
+- ["C16HGCircularSlider20CircularSliderHelper", "circleMinValue"]
+- !private ["C16HGCircularSlider20CircularSliderHelper", "cos"]
+- ["C16HGCircularSlider20CircularSliderHelper", "degrees"]
+- ["C16HGCircularSlider20CircularSliderHelper", "deinit"]
+- ["C16HGCircularSlider20CircularSliderHelper", "delta"]
+- ["C16HGCircularSlider20CircularSliderHelper", "endPoint"]
+- ["C16HGCircularSlider20CircularSliderHelper", "init"]
+- ["C16HGCircularSlider20CircularSliderHelper", "scaleToAngle"]
+- ["C16HGCircularSlider20CircularSliderHelper", "scaleValue"]
+- !private ["C16HGCircularSlider20CircularSliderHelper", "sin"]
+- ["C16HGCircularSlider20CircularSliderHelper", "value"]
+- ["Ps10Comparable", "init"]
+- ["Ps10Comparable", "pi"]
+- !private ["Ps10Comparable", "truncatingRemainder"]
+- !private ["Ps28CustomDebugStringConvertible", "CGPoint"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "midX"]
+- !private ["Ps28CustomDebugStringConvertible", "midY"]
+- ["Ps28CustomDebugStringConvertible", "pi"]
+- !private ["Ps28CustomDebugStringConvertible", "x"]
+- !private ["Ps28CustomDebugStringConvertible", "y"]
+- ["Ps28CustomDebugStringConvertible", "zero"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "CGPoint"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "midX"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "midY"]
+- ["Ps29CustomPlaygroundQuickLookable", "pi"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "x"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "y"]
+- ["Ps29CustomPlaygroundQuickLookable", "zero"]
+- !private ["Ps17CustomReflectable", "CGPoint"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "midX"]
+- !private ["Ps17CustomReflectable", "midY"]
+- ["Ps17CustomReflectable", "pi"]
+- !private ["Ps17CustomReflectable", "truncatingRemainder"]
+- !private ["Ps17CustomReflectable", "x"]
+- !private ["Ps17CustomReflectable", "y"]
+- ["Ps17CustomReflectable", "zero"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "pi"]
+- !private ["Ps23CustomStringConvertible", "truncatingRemainder"]
+- ["Sd", "pi"]
+- !private ["Ps9Equatable", "CGPoint"]
+- !private ["Ps9Equatable", "CGVector"]
+- !private ["Ps9Equatable", "Float"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "determinant"]
+- !private ["Ps9Equatable", "dotProduct"]
+- !private ["Ps9Equatable", "dotProductAndDeterminant"]
+- !private ["Ps9Equatable", "dx"]
+- !private ["Ps9Equatable", "dy"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "midX"]
+- !private ["Ps9Equatable", "midY"]
+- ["Ps9Equatable", "pi"]
+- !private ["Ps9Equatable", "truncatingRemainder"]
+- !private ["Ps9Equatable", "x"]
+- !private ["Ps9Equatable", "y"]
+- ["Ps9Equatable", "zero"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps25ExpressibleByFloatLiteral", "init"]
+- ["Ps25ExpressibleByFloatLiteral", "pi"]
+- !private ["Ps25ExpressibleByFloatLiteral", "truncatingRemainder"]
+- ["Ps27ExpressibleByIntegerLiteral", "init"]
+- ["Ps27ExpressibleByIntegerLiteral", "pi"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "truncatingRemainder"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "init"]
+- ["Ps13FloatingPoint", "init"]
+- ["Ps13FloatingPoint", "pi"]
+- !private ["Ps13FloatingPoint", "truncatingRemainder"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "pi"]
+- !private ["Ps8Hashable", "truncatingRemainder"]
+- ["V16HGCircularSlider8Interval", "CGFloat"]
+- ["V16HGCircularSlider8Interval", "Int"]
+- !private ["V16HGCircularSlider8Interval", "NSLocalizedString"]
+- !private ["V16HGCircularSlider8Interval", "assert"]
+- ["V16HGCircularSlider8Interval", "init"]
+- ["V16HGCircularSlider8Interval", "max"]
+- ["V16HGCircularSlider8Interval", "min"]
+- ["V16HGCircularSlider8Interval", "rounds"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- ["Ps25LosslessStringConvertible", "pi"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Ps12SignedNumber", "init"]
+- ["Ps12SignedNumber", "pi"]
+- !private ["Ps12SignedNumber", "truncatingRemainder"]
+- !private ["Vs12StaticString", "init"]
+- ["Ps10Strideable", "init"]
+- ["Ps10Strideable", "pi"]
+- !private ["Ps10Strideable", "truncatingRemainder"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["Ps15_CVarArgAligned", "init"]
+- ["Ps15_CVarArgAligned", "pi"]
+- !private ["Ps15_CVarArgAligned", "truncatingRemainder"]
+- ["Ps22_CVarArgPassedAsDouble", "init"]
+- ["Ps22_CVarArgPassedAsDouble", "pi"]
+- !private ["Ps22_CVarArgPassedAsDouble", "truncatingRemainder"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- ["Ps33_ExpressibleByBuiltinFloatLiteral", "pi"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- ["Ps35_ExpressibleByBuiltinIntegerLiteral", "pi"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "pi"]
+- !private ["Ps9_Hashable", "truncatingRemainder"]
+- !private ["Ps21_ObjectiveCBridgeable", "CGPoint"]
+- !private ["Ps21_ObjectiveCBridgeable", "CGVector"]
+- !private ["Ps21_ObjectiveCBridgeable", "Float"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "determinant"]
+- !private ["Ps21_ObjectiveCBridgeable", "dotProduct"]
+- !private ["Ps21_ObjectiveCBridgeable", "dotProductAndDeterminant"]
+- !private ["Ps21_ObjectiveCBridgeable", "dx"]
+- !private ["Ps21_ObjectiveCBridgeable", "dy"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "midX"]
+- !private ["Ps21_ObjectiveCBridgeable", "midY"]
+- ["Ps21_ObjectiveCBridgeable", "pi"]
+- !private ["Ps21_ObjectiveCBridgeable", "truncatingRemainder"]
+- !private ["Ps21_ObjectiveCBridgeable", "x"]
+- !private ["Ps21_ObjectiveCBridgeable", "y"]
+- ["Ps21_ObjectiveCBridgeable", "zero"]
+- ["Ps11_Strideable", "init"]
+- ["Ps11_Strideable", "pi"]
+- !private ["Ps11_Strideable", "truncatingRemainder"]
+depends-nominal:
+- "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- "V16HGCircularSlider3Arc"
+- "Ps19BinaryFloatingPoint"
+- !private "Sb"
+- "V12CoreGraphics7CGFloat"
+- "VSC7CGPoint"
+- "VSC6CGRect"
+- "VSC8CGVector"
+- "Ps7CVarArg"
+- "V16HGCircularSlider6Circle"
+- "C16HGCircularSlider20CircularSliderHelper"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Sd"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps25ExpressibleByFloatLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "Ps13FloatingPoint"
+- "Ps8Hashable"
+- "V16HGCircularSlider8Interval"
+- "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Ps12SignedNumber"
+- !private "Vs12StaticString"
+- "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "Ps15_CVarArgAligned"
+- "Ps22_CVarArgPassedAsDouble"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps33_ExpressibleByBuiltinFloatLiteral"
+- "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode8.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode8.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode8.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode8.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode8.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode8.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode8.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode8.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode8.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode8.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode8.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode8.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode8.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode8.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode8.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode8.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/lolizzz/Documents/Metronome/Pods/Target Support Files/HGCircularSlider/HGCircularSlider-umbrella.h"
+- "/Users/lolizzz/Documents/Metronome/build/Pods.build/Debug-iphonesimulator/HGCircularSlider.build/unextended-module.modulemap"
+interface-hash: "a1e5e58f18f17a82a4f5af04bce2ec89"
