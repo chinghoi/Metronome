@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         circular.endPointValue = 60
         speedLabler.text = "\(setupSlider())" //显示便签数字
         
-        // 添加标签手势
+        // 标签添加手势
         speedLabler.isUserInteractionEnabled = true
         let tap = UITapGestureRecognizer.init(target: self, action: #selector(ViewController.playLable))
         
@@ -71,6 +71,8 @@ class ViewController: UIViewController {
     }
     func playLable(){
         //播放按钮
+        a = 2
+        b = 3
         if setupSlider() != 0 { //速度为0不做反应
             if isPlaying {
                 isPlaying = false

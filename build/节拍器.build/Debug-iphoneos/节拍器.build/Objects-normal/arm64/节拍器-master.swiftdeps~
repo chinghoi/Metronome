@@ -1,6 +1,6 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
 options: "cdfd6da2d477933e8defa6f0e281c13a"
-build_time: [551174787, 609858000]
+build_time: [551176990, 235049000]
 inputs:
-  "/Users/lolizzz/Documents/Metronome/\u8282\u62CD\u5668/ViewController.swift": [551174787, 0]
+  "/Users/lolizzz/Documents/Metronome/\u8282\u62CD\u5668/ViewController.swift": [551176989, 0]
   "/Users/lolizzz/Documents/Metronome/\u8282\u62CD\u5668/AppDelegate.swift": [551159842, 0]
